@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="movies_list.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<nav class="nav">
+  <legend><a href="index.html"><img class="netflix-logo" src="netflix-logo.png" alt="Logo"></a></legend>
+  <div>
+    <input type="radio" id="all" name="film-filter" value="all" checked>
+    <label for="all">All Movies</label>
+  </div>
+  <div>
+    <input type="radio" id="superman" name="film-filter" value="superman">
+    <label for="superman">Latest Movies</label>
+  </div>
+  <div>
+    <input type="radio" id="avengers" name="film-filter" value="avengers">
+    <label for="avengers">Avengers</label>
+  </div>
+  <div>
+    <input type="radio" id="batman" name="film-filter" value="batman">
+    <label for="batman">Batman</label>
+  </div>
+  <div>
+    <input type="radio" id="princess" name="film-filter" value="princess">
+    <label for="princess">Princess</label>
+  </div>
+  <div>
+    <input type="radio" id="xmen" name="film-filter" value="xmen">
+    <label for="xmen">X-Men</label>
+  </div>
+  <div class="searchbar">
+    <input type="text" id="searchbar" placeholder="&#xF002;  Search.." style="font-family: 'Bebas Neue', fontawesome">
+
+  </div> 
+</nav>
+<main>
+  <div class="container">       
+  <ul id="movie-gallery"></ul>
+  </div>
+</main>
+</body>
+</html>
