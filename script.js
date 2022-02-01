@@ -1,5 +1,6 @@
 const galleryUl = document.getElementById("movie-gallery");
 
+// Different method:
 // const addMoviesToDom = movies => {
 //     movies.map(movie => {
 //         galleryUl.innerHTML = "";
